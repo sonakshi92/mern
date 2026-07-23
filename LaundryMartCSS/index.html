@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Mart</title>
+    <link rel="icon" href="images/laundry.png" type="image/png">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+        <img src="images/logo.png" class="logo" alt="Laundry Mart Logo" width="50" height="50">
+            <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="" id="username">username</a></li>
+            </ul>
+        </nav>
+        <hr />
+        <h1>Welcome to Laundry Mart 👕🧼💦</h1>
+    </header>
+    <main>
+        <section id="hero">
+            <div>
+                <h2 style="color: #db0505;">Experience the Best Laundry Service in Town!</h2>
+                <p>At <b>Laundry Mart,</b> we provide top-notch laundry services to keep your clothes fresh and clean. Our team of experts ensures that every garment is treated with care and returned to you in pristine condition.</p>
+                <p>Whether you need wash & fold, dry cleaning, or ironing services, we've got you covered. Enjoy the convenience of our pickup & delivery options and say goodbye to laundry day stress!</p>
+                <!-- <p>Welcome to Laundry Mart, your trusted partner for professional laundry and dry cleaning services. We provide fast, reliable, and affordable solutions to keep your clothes looking fresh and spotless. Our experienced staff carefully handles every garment with the highest level of care. We use premium detergents and advanced cleaning techniques for the best results. From everyday clothing to delicate fabrics, we ensure every item is cleaned safely. Our convenient pickup and delivery service saves you valuable time and effort. Customer satisfaction is our top priority, and we strive to deliver exceptional service every time. With transparent pricing and quick turnaround, we make laundry simple and stress-free. Whether it's washing, ironing, or dry cleaning, we've got all your laundry needs covered. Book your service today and experience clean, fresh clothes delivered right to your doorstep.</p> -->
+                <a href="#book" class="booknow"><button>Book Now</button></a>
+            </div>
+            <div>
+                <img src="images/laundry.png" alt="Laundry Service">
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us  ❤️</h2>
+            <p>We are a leading laundry service provider, committed to delivering high-quality cleaning services to our customeRs. Our team of professionals ensures that your clothes are treated with care and returned to you fresh and clean.</p>
+            <p>Laundry Mart offers a range of services including wash & fold, dry cleaning, ironing, and convenient pickup & delivery options. We pride ourselves on our attention to detail and customer satisfaction.</p>
+            <h3>Why Choose Us?</h3>
+            <p><b><u>Clean clothes, happy customers!🧺 </u></b></p>
+            <p> <i><b>Service Quality: </b></i>We use state-of-the-art equipment and eco-friendly detergents to ensure your clothes are cleaned to the highest standards.</p>
+            <p> <i><b>Convenience: </b></i>Our pickup and delivery service saves you time and effort, making laundry day hassle-free.</p>
+            <p> <i><b>Customer Satisfaction: </b></i>We value our customers and strive to exceed their expectations with every service we provide.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Wash & Fold</li>
+                <li>Dry Cleaning</li>
+                <li>Ironing Services</li>
+                <li>Pickup & Delivery</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Price List</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Wash & Fold</td>
+                        <td>Rs. 150 per item</td>
+                    </tr>
+                    <tr>
+                        <td>Dry Cleaning</td>
+                        <td>Rs. 500 per item</td>
+                    </tr>
+                    <tr>
+                        <td>Ironing Services</td>
+                        <td>Rs. 20 per item</td>
+                    </tr>
+                    <tr>
+                        <td>Pickup & Delivery</td>
+                        <td>Rs. 100 flat rate</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="book">
+            <h1>Book Now</h1>
+            <p>Schedule your laundry service today!</p>
+            <form action="" class="booknow">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <label for="service">Select Service:</label><br>
+                <select id="service" name="service">
+                    <option value="">--Please choose an option--</option>
+                    <option value="wash_fold">Wash & Fold</option>
+                    <option value="dry_cleaning">Dry Cleaning</option>
+                    <option value="ironing">Ironing Services</option>
+                    <option value="pickup_delivery">Pickup & Delivery</option>
+                </select><br><br>
+
+                <label for="date">Preferred Date:</label><br>
+                <input type="date" id="date" name="date"><br><br>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+
+        
+    </main>
+    <hr>
+    <footer>
+         <section id="contact">
+            <h2>Contact Us</h2>
+             <p>We are a team of professionals dedicated to providing excellent laundry services.</p>
+            <p>If you have any questions or would like to schedule a service, please reach out to us at:</p>
+            <p>Email: <a href="mailto:info@laundrymart.com">info@laundrymart.com</a></p>
+            <p>Phone: <a href="tel:9876543210">+91 987-654-3210</a></p>
+            <p>Address: 123 Laundry Lane, Clean City, CC 12345</p>
+        </section>
+        <p>&copy; 2026 Laundry Mart. All rights reserved.</p>
+        
+    </footer>
+    
+</body>
+</html>

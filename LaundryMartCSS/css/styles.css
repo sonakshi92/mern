@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-top: 70px;
+}
+
+header {
+    background-color: #1d5b6e;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    background-color: #1d5b6e;
+    padding: 10px;
+}
+
+nav > ul{
+    list-style: none;
+    padding: 10px;
+
+}
+
+nav > ul> li{
+    display: inline;
+}
+
+li>a{
+    text-decoration: none;
+    color: #db0505;
+    padding: 10px;
+}
+
+li>a:hover{
+    color: #f4f4f4;
+}
+
+li>a:active, .active{
+    background-color: #0b0350;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+#username{
+    background-color: #db0505;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    float: right;
+}
+
+.logo{
+    float: left;
+    /* margin-right: 20px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+p{
+    text-indent: 50px;
+    padding: 10px;
+}
+
+#hero{
+    height: 60vh;          
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+section{
+    padding: 20px;
+}
+
+button{
+    background-color: #db0505;
+    color: white;
+    padding: 10px 60px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/* #services{
+    float: left;
+} */
+
+
+#book{
+    background-color: #1d5b6e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+footer{
+    background-color: #1d5b6e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
