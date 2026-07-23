@@ -18,26 +18,72 @@ header {
     text-align: center;
 }
 
-nav{
+/* nav{
     position: fixed;
     top: 0;
     left: 0;
     width:100%;
     background-color: #1d5b6e;
     padding: 10px;
+} */
+
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#1d5b6e;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:10px 25px;
+     z-index: 1000;
 }
 
-nav > ul{
+/* nav > ul{
     list-style: none;
     padding: 10px;
 
+} */
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+    align-items:center;
+     /* Takes all available space */
+    flex: 1;
+
+    /* Centers the links */
+    justify-content: center;
 }
 
-nav > ul> li{
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex: 1;
+    margin: 10px;
+}
+
+.username-item{
+    margin-left: auto;
+}
+
+/* nav > ul> li{
     display: inline;
-}
+} */
 
-li>a{
+/* li>a{
+    text-decoration: none;
+    color: #db0505;
+    padding: 10px;
+} */
+ nav ul li a{
     text-decoration: none;
     color: #db0505;
     padding: 10px;
@@ -60,24 +106,32 @@ li>a:active, .active{
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    float: right;
+    /* float: right; */
+    white-space: nowrap;
 }
 
 .logo{
-    float: left;
-    /* margin-right: 20px; */
+    /* float: left; */
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
+
+/* nav ul li{
+    display:inline;
+} */
 
 p{
     text-indent: 50px;
     padding: 10px;
 }
 
+.hero-title{
+    color:#db0505;
+}
+
 #hero{
-    height: 60vh;          
+    height: 100vh;          
     width: 100%;
     display: flex;
     overflow: hidden;
